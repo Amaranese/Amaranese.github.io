@@ -7,7 +7,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -807,6 +807,24 @@ body.offcanvas {
       background: #4054b2; }
     .progress-bar.color-6 span {
       color: #4054b2; }
+  .progress-bar.color-7 {
+    background: #F0FF00; }
+  .progress-bar.color-7:after {
+    background: #F0FF00; }
+  .progress-bar.color-7 span {
+    color: #F0FF00; }
+  .progress-bar.color-8 {
+    background: #9788AA; }
+  .progress-bar.color-8:after {
+    background: #9788AA; }
+  .progress-bar.color-8 span {
+    color: #9788AA; }
+  .progress-bar.color-9 {
+    background: #C72AAF; }
+  .progress-bar.color-9:after {
+    background: #C72AAF; }
+  .progress-bar.color-9 span {
+    color: #C72AAF; }
 
 .colorlib-feature {
   text-align: left;

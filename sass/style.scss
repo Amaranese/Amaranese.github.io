@@ -1,22 +1,16 @@
 $font-primary: 'Quicksand', Arial, sans-serif;
 $font-secondary: 'Playfair Display', Georgia, serif;
-
-// Overrides
 $grid-gutter-width: 40px !default; 
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
-
 $brand-primary: #2c98f0 !default;
 $brand-footer: #2C2C2C !default;
-
 $brand-color-1: #2c98f0 !default;
 $brand-color-2: #ec5453 !default;
 $brand-color-3: #f9bf3f !default;
 $brand-color-4: #a84cb8 !default;
 $brand-color-5: #2fa499 !default;
 $brand-color-6: #4054b2 !default;
-
-
 $brand-white: #fff;
 $brand-black: #000;
 $brand-darker: #444;
@@ -26,13 +20,8 @@ $brand-body-color: #e8e8e8;
 $brand-selection-color: #f9f6f0;
 $brand-overlay-color: #3b3d40;
 $brand-bg-color: $brand-white;
-
 $input-border-focus:  $brand-primary !default;
 $form-group-margin-bottom:       30px !default;
-
-
-
-// Mixin
 @mixin translateX($translatex) {
 	-moz-transform: translateX($translatex);
 	-webkit-transform: translateX($translatex);
@@ -53,7 +42,6 @@ $form-group-margin-bottom:       30px !default;
 	zoom:1;
 	*display:inline;
 }
-
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
@@ -72,7 +60,6 @@ $form-group-margin-bottom:       30px !default;
 	-webkit-flex-wrap: wrap; 
 	-moz-flex-wrap: wrap; 
 }
-
 @font-face {
 	font-family: 'icomoon';
 	src:url('../fonts/icomoon/icomoon.eot?srf3rx');
@@ -83,7 +70,6 @@ $form-group-margin-bottom:       30px !default;
 	font-weight: normal;
 	font-style: normal;
 }
-
 @mixin icomoon() {
 	
 	font-family: 'icomoon';
@@ -93,28 +79,11 @@ $form-group-margin-bottom:       30px !default;
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
-
-	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	
-}
-
-// Import 
+} 
 @import 'bootstrap/mixins';
 @import 'bootstrap/variables';
-
-
-
-
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
-
-// Template Base
 body {
 	font-family: $font-primary;
 	font-weight: 400;
@@ -137,7 +106,6 @@ a {
 p {
 	margin-bottom: 1.5em;
 }
-
 h1, h2, h3, h4, h5, h6 {
 	color: $brand-black;
 	font-family: $font-secondary;
@@ -164,17 +132,14 @@ figure {
   color: $brand-white;
   background: $brand-primary;
 }
-
 ::-moz-selection {
   color: $brand-white;
   background: $brand-primary;
 }
-
 ::selection {
   color: $brand-white;
   background: $brand-primary;
 }
-
 #colorlib-page {
     width: 100%;
     overflow: hidden;
@@ -184,14 +149,12 @@ figure {
 	padding-top: 3em;
 	padding-bottom: 40px;
 	float: left;
-
 	width: 300px;
 	position: fixed;
 	overflow-y: scroll;
 	z-index: 1001;
 	background: $brand-gray;
 	@include transition(.5s);
-
 	@media screen and (max-width: $screen-sm) {
 		width: 300px;
 		@include translateX(-300px);
@@ -275,7 +238,6 @@ figure {
 					&:hover {
 						text-decoration: none;
 						color: rgba(0,0,0,1);
-						
 						&:after {
 							visibility: visible;
 							-webkit-transform: scaleX(1);
@@ -337,7 +299,6 @@ figure {
 		}
 	}
 }
-
 .container-wrap{
 	max-width: 1170px;
 	margin: 0 auto;
@@ -351,8 +312,6 @@ figure {
 		padding: 0 1em;
 	}
 }
-
-
 #colorlib-hero {
 	min-height: 500px;
 	background: $brand-white url(../images/loader.gif) no-repeat center center;
@@ -364,7 +323,6 @@ figure {
 		border: none;
 		z-index: 1;
 		margin-bottom: 0;
-
 		.slides {
 			position: relative;
 			overflow: visible;
@@ -487,7 +445,6 @@ figure {
 	}
 
 }
-
 body {
 	&.offcanvas {
 		overflow-x: hidden;
@@ -504,7 +461,6 @@ body {
 		}
 	}
 }
-
 .colorlib-narrow-content{
 	padding: 0 2.5em;
 	@media screen and(max-width: $screen-sm){
@@ -515,7 +471,6 @@ body {
 	margin: 0;
 	padding: 0;
 }
-
 .colorlib-experience,
 .colorlib-skills,
 .colorlib-education,
@@ -534,18 +489,12 @@ body {
 		padding-bottom: 8em;
 	}
 }
-
-
-
-
-//COVER BG
 .author-img{
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 	position: relative;
 }
-
 .colorlib-heading {
 	font-size: 18px;
 	margin-bottom: 4em;
@@ -570,8 +519,6 @@ body {
 	font-weight: 500;
 	letter-spacing: 5px;
 }
-
-//ABOUT
 .about-img{
 	width: 100%;
 	height: 600px;
@@ -599,9 +546,6 @@ body {
 		padding: 2px 10px;
 	}
 }
-
-
-//PANEL
 .fancy-collapse-panel .panel-default > .panel-heading {
 	padding: 0;
 }
@@ -622,7 +566,6 @@ body {
 	-ms-box-shadow: none !important;
 	-o-box-shadow: none !important;
 	box-shadow: none !important;
-
 }
 .panel{
 	-webkit-box-shadow: none !important;
@@ -643,7 +586,6 @@ body {
 	line-height: 1;
 	margin-top: -7px;
 }
-
 .panel-heading a.collapsed:after {
 	content: "\e114";
 }
@@ -657,9 +599,6 @@ body {
 	margin-top: 5px;
 	border: 1px solid lighten($brand-black,90%) !important;
 }
-
-
-//TIMELINE
 .timeline-centered {
     position: relative;
     margin-bottom: 30px;
@@ -668,20 +607,16 @@ body {
   content: " ";
   display: table;
 }
-
 .timeline-centered:after {
   clear: both;
 }
-
 .timeline-centered:before, .timeline-centered:after {
   content: " ";
   display: table;
 }
-
 .timeline-centered:after {
   clear: both;
 }
-
 .timeline-centered:before {
   content: '';
   position: absolute;
@@ -692,7 +627,6 @@ body {
   bottom: 20px;
   margin-left: 29px;
 }
-
 .timeline-centered .timeline-entry {
   position: relative;
   margin-top: 5px;
@@ -700,13 +634,10 @@ body {
   margin-bottom: 10px;
   clear: both;
 }
-
 .timeline-centered .timeline-entry .timeline-entry-inner {
 position: relative;
 margin-left: -20px;
 }
-
-
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
 	display: block;
 	width: 40px;
@@ -741,7 +672,6 @@ margin-left: -20px;
 		margin-left: 10px;
 	}
 }
-
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
 	position: relative;
 	background: $brand-gray;
@@ -751,7 +681,6 @@ margin-left: -20px;
 	-moz-background-clip: padding;
 	background-clip: padding-box;
 }
-
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
 	content: '';
 	display: block;
@@ -765,21 +694,17 @@ margin-left: -20px;
 	top: 10px;
 	margin-left: -9px;
 }
-
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p + p {
    margin-top: 15px;
 }
-
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
 	font-size: 20px;
 	font-family: $font-primary;
 	font-weight: 500;
 }
-
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
    color: $brand-black;
 }
-
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
    -webkit-opacity: .4;
    -moz-opacity: .4;
@@ -788,8 +713,6 @@ margin-left: -20px;
    filter: alpha(opacity=40);
    font-size: 16px;
 }
-
-//SERVICES----------------------
 .services{
 	margin-bottom: 30px;
 	padding: 1.5em;
@@ -843,9 +766,6 @@ margin-left: -20px;
 		border-bottom: 2px solid $brand-color-6;
 	}
 }
-
-
-//SERVICES
 .services{
 	margin-bottom: 80px;
 	position: relative;
@@ -957,9 +877,6 @@ margin-left: -20px;
 		}
 	}
 }
-
-
-//SKILLS--------------------
 .progress-wrap{
 	h3{
 		font-size: 16px;
@@ -967,7 +884,6 @@ margin-left: -20px;
 		margin-bottom: 10px;
 	}
 }
-//PROGRESS BAR
 .progress{
 	height: 6px;
 	box-shadow: none;
@@ -1055,8 +971,6 @@ margin-left: -20px;
 		}
 	}
 }
-
-
 .colorlib-feature {
 	text-align: left;
 	width: 100%;
@@ -1115,9 +1029,6 @@ margin-left: -20px;
 		}
 	}
 }
-
-
-//BLOG
 .blog-entry{
 	width: 100%;
 	float: left;
@@ -1191,9 +1102,6 @@ margin-left: -20px;
 		}
 	}
 }
-
-
-// PROJECT
 .work-menu{
 	span{
 		margin-left: 10px;
@@ -1311,10 +1219,6 @@ margin-left: -20px;
 .btn-load-more{
 	width: 100%;
 }
-
-
-
-//COUNTER
 #colorlib-counter{
 	position: relative;
 	clear: both;
@@ -1372,8 +1276,6 @@ margin-left: -20px;
 		display: block;
 	}
 }
-
-
 .colorlib-social {
 	padding: 0;
 	margin: 0;
@@ -1403,8 +1305,6 @@ margin-left: -20px;
 		}
 	}
 }
-
-
 #map {
 	width: 100%;
 	height: 700px;	
@@ -1412,13 +1312,10 @@ margin-left: -20px;
 		height: 200px;
 	}
 }
-
 .colorlib-bg-color{
 	background: lighten($brand-black,98%);
 	position: relative;
 }
-
-
 .pagination{
 	padding: 0;
 	li{
@@ -1454,8 +1351,6 @@ margin-left: -20px;
 		}
 	}
 }
-
-// Buttons
 .btn {
 	margin-right: 4px;
 	margin-bottom: 4px;
@@ -1571,7 +1466,6 @@ margin-left: -20px;
 		}
 	}
 }
-
 .btn-outline {
 	background: none;
 	border: 2px solid lighten($brand-black, 50%);
@@ -1581,8 +1475,6 @@ margin-left: -20px;
 		box-shadow: none;
 	}
 }
-
-// Form Input Field
 .form-control {
 	-webkit-appearance: none;
 	-moz-appearance: none;
@@ -1606,8 +1498,6 @@ margin-left: -20px;
 #message {
 	height: 130px;
 }
-
-// Burger Menu
 .colorlib-nav-toggle {
   cursor: pointer;
   text-decoration: none;
@@ -1661,7 +1551,6 @@ margin-left: -20px;
 	  }
   }
 }
-
 .colorlib-nav-toggle i::before {
   top: -7px;
 }
@@ -1709,9 +1598,6 @@ margin-left: -20px;
   	}
   
 }
-
-
-// Helper Class
 .col-xxs-12 {
 	@media screen and (max-width: 480px) {
 		float: none;
@@ -1742,8 +1628,6 @@ margin-left: -20px;
 .col-padding{
 	padding: 10px !important;
 }
-
-
 .animate-box {
 	.js & {
 		opacity: 0;

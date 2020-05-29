@@ -10,11 +10,9 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-
 body {
   margin: 0;
 }
-
 article,
 aside,
 details,
@@ -30,7 +28,6 @@ section,
 summary {
   display: block;
 }
-
 audio,
 canvas,
 progress,
@@ -6106,20 +6103,16 @@ button.close {
     display: inline-block !important;
   }
 }
-
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-md {
     display: block !important;
   }
-
   table.visible-md {
     display: table !important;
   }
-
   tr.visible-md {
     display: table-row !important;
   }
-
   th.visible-md,
   td.visible-md {
     display: table-cell !important;
@@ -6130,32 +6123,26 @@ button.close {
     display: block !important;
   }
 }
-
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-md-inline {
     display: inline !important;
   }
 }
-
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-md-inline-block {
     display: inline-block !important;
   }
 }
-
 @media (min-width: 1200px) {
   .visible-lg {
     display: block !important;
   }
-
   table.visible-lg {
     display: table !important;
   }
-
   tr.visible-lg {
     display: table-row !important;
   }
-
   th.visible-lg,
   td.visible-lg {
     display: table-cell !important;
@@ -6166,19 +6153,16 @@ button.close {
     display: block !important;
   }
 }
-
 @media (min-width: 1200px) {
   .visible-lg-inline {
     display: inline !important;
   }
 }
-
 @media (min-width: 1200px) {
   .visible-lg-inline-block {
     display: inline-block !important;
   }
 }
-
 @media (max-width: 767px) {
   .hidden-xs {
     display: none !important;
@@ -6202,20 +6186,16 @@ button.close {
 .visible-print {
   display: none !important;
 }
-
 @media print {
   .visible-print {
     display: block !important;
   }
-
   table.visible-print {
     display: table !important;
   }
-
   tr.visible-print {
     display: table-row !important;
   }
-
   th.visible-print,
   td.visible-print {
     display: table-cell !important;
@@ -6229,7 +6209,6 @@ button.close {
     display: block !important;
   }
 }
-
 .visible-print-inline {
   display: none !important;
 }
@@ -6238,7 +6217,6 @@ button.close {
     display: inline !important;
   }
 }
-
 .visible-print-inline-block {
   display: none !important;
 }
@@ -6247,11 +6225,8 @@ button.close {
     display: inline-block !important;
   }
 }
-
 @media print {
   .hidden-print {
     display: none !important;
   }
 }
-
-/*# sourceMappingURL=bootstrap.css.map */

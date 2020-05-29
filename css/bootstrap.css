@@ -5403,17 +5403,14 @@ button.close {
 .modal-header .close {
   margin-top: -2px;
 }
-
 .modal-title {
   margin: 0;
   line-height: 1.42857;
 }
-
 .modal-body {
   position: relative;
   padding: 15px;
 }
-
 .modal-footer {
   padding: 15px;
   text-align: right;
@@ -5436,7 +5433,6 @@ button.close {
 .modal-footer .btn-block + .btn-block {
   margin-left: 0;
 }
-
 .modal-scrollbar-measure {
   position: absolute;
   top: -9999px;
@@ -5444,18 +5440,15 @@ button.close {
   height: 50px;
   overflow: scroll;
 }
-
 @media (min-width: 768px) {
   .modal-dialog {
     width: 600px;
     margin: 30px auto;
   }
-
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   }
-
   .modal-sm {
     width: 300px;
   }
@@ -5508,7 +5501,6 @@ button.close {
   margin-left: -3px;
   padding: 0 5px;
 }
-
 .tooltip-inner {
   max-width: 200px;
   padding: 3px 8px;
@@ -5517,7 +5509,6 @@ button.close {
   background-color: #000;
   border-radius: 4px;
 }
-
 .tooltip-arrow {
   position: absolute;
   width: 0;
@@ -5525,7 +5516,6 @@ button.close {
   border-color: transparent;
   border-style: solid;
 }
-
 .tooltip.top .tooltip-arrow {
   bottom: 0;
   left: 50%;
@@ -5582,7 +5572,6 @@ button.close {
   border-width: 0 5px 5px;
   border-bottom-color: #000;
 }
-
 .popover {
   position: absolute;
   top: 0;
@@ -5627,7 +5616,6 @@ button.close {
 .popover.left {
   margin-left: -10px;
 }
-
 .popover-title {
   margin: 0;
   padding: 8px 14px;
@@ -5636,11 +5624,9 @@ button.close {
   border-bottom: 1px solid #ebebeb;
   border-radius: 5px 5px 0 0;
 }
-
 .popover-content {
   padding: 9px 14px;
 }
-
 .popover > .arrow, .popover > .arrow:after {
   position: absolute;
   display: block;
@@ -5649,16 +5635,13 @@ button.close {
   border-color: transparent;
   border-style: solid;
 }
-
 .popover > .arrow {
   border-width: 11px;
 }
-
 .popover > .arrow:after {
   border-width: 10px;
   content: "";
 }
-
 .popover.top > .arrow {
   left: 50%;
   margin-left: -11px;
@@ -5719,11 +5702,9 @@ button.close {
   border-left-color: #fff;
   bottom: -10px;
 }
-
 .carousel {
   position: relative;
 }
-
 .carousel-inner {
   position: relative;
   overflow: hidden;
@@ -5802,7 +5783,6 @@ button.close {
 .carousel-inner > .active.right {
   left: 100%;
 }
-
 .carousel-control {
   position: absolute;
   top: 0;
@@ -5872,7 +5852,6 @@ button.close {
 .carousel-control .icon-next:before {
   content: '\203a';
 }
-
 .carousel-indicators {
   position: absolute;
   bottom: 10px;
@@ -5902,7 +5881,6 @@ button.close {
   height: 12px;
   background-color: #fff;
 }
-
 .carousel-caption {
   position: absolute;
   left: 15%;
@@ -5918,7 +5896,6 @@ button.close {
 .carousel-caption .btn {
   text-shadow: none;
 }
-
 @media screen and (min-width: 768px) {
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .glyphicon-chevron-right,
@@ -5937,13 +5914,11 @@ button.close {
   .carousel-control .icon-next {
     margin-right: -15px;
   }
-
   .carousel-caption {
     left: 20%;
     right: 20%;
     padding-bottom: 30px;
   }
-
   .carousel-indicators {
     bottom: 20px;
   }
@@ -5955,33 +5930,26 @@ button.close {
 .clearfix:after {
   clear: both;
 }
-
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
 .pull-right {
   float: right !important;
 }
-
 .pull-left {
   float: left !important;
 }
-
 .hide {
   display: none !important;
 }
-
 .show {
   display: block !important;
 }
-
 .invisible {
   visibility: hidden;
 }
-
 .text-hide {
   font: 0/0 a;
   color: transparent;
@@ -5989,34 +5957,27 @@ button.close {
   background-color: transparent;
   border: 0;
 }
-
 .hidden {
   display: none !important;
 }
-
 .affix {
   position: fixed;
 }
-
 @-ms-viewport {
   width: device-width;
 }
 .visible-xs {
   display: none !important;
 }
-
 .visible-sm {
   display: none !important;
 }
-
 .visible-md {
   display: none !important;
 }
-
 .visible-lg {
   display: none !important;
 }
-
 .visible-xs-block,
 .visible-xs-inline,
 .visible-xs-inline-block,
@@ -6031,20 +5992,16 @@ button.close {
 .visible-lg-inline-block {
   display: none !important;
 }
-
 @media (max-width: 767px) {
   .visible-xs {
     display: block !important;
   }
-
   table.visible-xs {
     display: table !important;
   }
-
   tr.visible-xs {
     display: table-row !important;
   }
-
   th.visible-xs,
   td.visible-xs {
     display: table-cell !important;
@@ -6055,32 +6012,26 @@ button.close {
     display: block !important;
   }
 }
-
 @media (max-width: 767px) {
   .visible-xs-inline {
     display: inline !important;
   }
 }
-
 @media (max-width: 767px) {
   .visible-xs-inline-block {
     display: inline-block !important;
   }
 }
-
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm {
     display: block !important;
   }
-
   table.visible-sm {
     display: table !important;
   }
-
   tr.visible-sm {
     display: table-row !important;
   }
-
   th.visible-sm,
   td.visible-sm {
     display: table-cell !important;
@@ -6091,13 +6042,11 @@ button.close {
     display: block !important;
   }
 }
-
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm-inline {
     display: inline !important;
   }
 }
-
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm-inline-block {
     display: inline-block !important;
